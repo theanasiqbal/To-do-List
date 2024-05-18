@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To - Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="h-screen w-screen bg-[url('front.jpg')]">
+        <h1 class=" font-semibold text-5xl sans-mono text-center py-5 text-white">To - Do List</h1>
+        <div class="bg-gradient-to-r from-slate-500 to-slate-700  w-96 h-3/4 mx-auto rounded-lg my-5 p-5 ">
+            <!-- <input type="text" id="taskInput" class="" placeholder="Add new task"> -->
+            <input type="text" name="price" id="taskInput" class="block w-full rounded-md border-0 py-1.5 pl-5 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="Enter New Task">
+            <div id="list-cont" class="w-full h-4/6 bg-white rounded-md mt-7 relative">
+            <ul id="taskList" class="list-group"></ul>
+            </div>
+            <div id="btn-c" class="">
+            <button type="button" id="completed" class="btn rounded-full borde-solid border border-blue-950 px-2 py-1 mt-7 me-4">Completed</button>
+            <button type="button" id="pending" class="btn rounded-full borde-solid border border-blue-950 px-2 py-1 mt-7 me-4">Pending</button>
+            <button type="button" id="all" class="btn rounded-full borde-solid border border-blue-950 px-2 py-1 mt-7">All</button>
+            </div>
+        </div>
+
+    </div>
+    <h1>This is to-do list.</h1>
+
+
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
